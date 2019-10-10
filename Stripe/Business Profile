@@ -1,4 +1,4 @@
-\Stripe\Stripe::setApiKey("sk_test_en4siG2GaVHWmhTsU9ja0kqH00vJxrAGLw");
+\Stripe\Stripe::setApiKey("pk_test_7uH5UZHXKcCp6rS5Ne1J2LqE00t1byjbjo");
 
 \Stripe\Account::create([
   "type" => "custom",
