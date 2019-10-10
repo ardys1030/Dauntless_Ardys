@@ -1,0 +1,21 @@
+\Stripe\Stripe::setApiKey("sk_test_en4siG2GaVHWmhTsU9ja0kqH00vJxrAGLw");
+
+\Stripe\Account::create([
+  "type" => "custom",
+  "country" => "FR",
+  "email" => "ardys@example.com",
+  "requested_capabilities" => ["card_payments", "transfers"]
+]);
+{
+  "id": "pk_test_7uH5UZHXKcCp6rS5Ne1J2LqE00t1byjbj",
+   "object": "account",
+  "business_profile": {
+    "mcc": 5812,
+    "name": "Quiet Time Cafe",
+    "support_address": {"http://dauntlesskerusso.com"}
+
+    },
+    "support_email": "asoriano-teledirect@ops.stripe.com",
+    "support_phone": "+601114838587",
+    "support_url": ""http://dauntlesskerusso.com/category/contact-me/"
+    "url": "http://dauntlesskerusso.com"
